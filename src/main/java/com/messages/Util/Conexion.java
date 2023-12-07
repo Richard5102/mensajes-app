@@ -14,8 +14,7 @@ public class Conexion {
 
 
             conneciton = DriverManager.getConnection(url, user, pass);
-        if (conneciton != null)
-            System.out.println("Conexion exitosa");
+
         return conneciton;
     }
 }
